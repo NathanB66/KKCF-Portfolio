@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=Rouge+Script&family=Koulen&family=Kreon&display=swap" rel="stylesheet">
+    
+    
+ 
+  
+  <img class="hero_image">
+    <a class="active" id=home_link href="index.html"> HOME </a>
+    <div class="hero_text">
+      <h1>The very Best Pans at an Affordable Price!</h1>
+      <p>Let your kitchen creativity shine</p>
+      <button id="button" onclick = "window.location.href='buisness.html';" class="hero_button">Click to Learn more</button>
+    </div>
+  </img>
+
+
+  <style>
+    html {
+      background: black;
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #home_link {
+      float: right; 
+      position: relative;
+      color: white;
+      margin-right: 10px;
+      text-decoration: none; 
+      font-size: 50px; 
+      font-family: Koulen;
+    }
+
+    #button {
+      font-family: Gabriela;
+    }
+      
+    
+    .hero_image {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: url(images/pan_bg.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      filter: brightness(60%);
+    }
+     
+    .hero_text {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-family: "Gabriela";
+      font-size: 30px;
+    }
+    .hero_button:hover {
+      cursor: pointer;
+      background-color: #cb376a;
+      border: 1px solid #db7598;
+    }
+
+
+    @media (max-width: 773px) {
+      .hero_text {
+        font-size: 25px;
+      }
+ 
+    
+  </style>
+
+
+  </head>
+
+  <body>
+
+
+
+
+  </body>
+
+
+  
+</html>
